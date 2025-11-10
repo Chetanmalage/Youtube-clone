@@ -11,10 +11,11 @@
         padding: 0 10px;
     }
 
+
     .header-center {
-        margin-left: 10px;
-        margin-right: 10px;
-        max-width: 100%;
+        flex: none;
+        margin: 0 5px;
+        max-width: 50%;
     }
 
     .search-bar {
@@ -28,7 +29,12 @@
 
     .header-right {
         width: auto;
-        gap: 10px;
+        gap: 6px;
+    }
+
+    .hamburger-menu {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .header-left {
