@@ -1,12 +1,35 @@
+
+
 @media (min-width:0px) and (max-width: 700px) {
     .header-center {
         flex: 1;
     }
 
-    .search-bar {
+   .header {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .header-center {
+        margin-left: 10px;
+        margin-right: 10px;
         max-width: 100%;
     }
 
+    .search-bar {
+        display: none; 
+    }
+
+    .search-button {
+        width: 40px;
+        margin-right: 5px;
+    }
+
+    .header-right {
+        width: auto;
+        margin-right: 10px;
+        gap: 10px;
+    }
 }
 
 @media (min-width:0px) and (max-width: 700px) {
