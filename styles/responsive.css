@@ -33,13 +33,19 @@
 
     .header-right {
         width: auto;
-        margin-right: 10px;
+        /* margin-right: 10px; */
         gap: 10px;
+    }
+
+    .header-left {
+        width: auto;
+        display: flex;
+        align-items: center;
     }
 
     /* For sidebar content resonsivee */
     .sidebar {
-        position: fixed;
+        position: sticky;
         background-color: white;
         left: 0;
         right: 0;
@@ -61,7 +67,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 5px;
         cursor: pointer;
     }
 
